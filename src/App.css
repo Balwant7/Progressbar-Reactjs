@@ -1,0 +1,32 @@
+.container {
+  margin-top: 10rem;
+  overflow: hidden;
+}
+.container center {
+  font-size: 2rem;
+}
+.bar {
+  width: 80%;
+  background-color: lightgrey;
+  height: 30px;
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.mainbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.colordiv {
+  background-color: rgb(34, 150, 40);
+  height: 100%;
+}
+.loadingtxt {
+  margin-top: 2rem;
+}
